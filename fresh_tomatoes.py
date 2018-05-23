@@ -19,6 +19,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background-color: #000
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -40,7 +41,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #6494AA;
             cursor: pointer;
         }
         .scale-media {
@@ -55,6 +56,9 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
+        }
+        .title {
+            color: #FFF
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -124,7 +128,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h2 class="title">{movie_title}</h2>
 </div>
 '''
 

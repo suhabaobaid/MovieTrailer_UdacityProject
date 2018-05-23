@@ -13,6 +13,7 @@
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background-color: #000
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -34,7 +35,7 @@
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #6494AA;
             cursor: pointer;
         }
         .scale-media {
@@ -49,6 +50,9 @@
             left: 0;
             top: 0;
             background-color: white;
+        }
+        .title {
+            color: #FFF
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -97,7 +101,7 @@
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Suha' Fav Movie Trailers(Udacity)</a>
+            <a class="navbar-brand" href="#">Suha's Fav Movie Trailers(Udacity)</a>
           </div>
         </div>
       </div>
@@ -106,17 +110,22 @@
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="RCKMhc_f1rg" data-toggle="modal" data-target="#trailer">
     <img src="https://i.ytimg.com/vi/TjEREWejqic/movieposter.jpg" width="220" height="342">
-    <h2>Mulan</h2>
+    <h2 class="title">Mulan</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="zCy5WQ9S4c0" data-toggle="modal" data-target="#trailer">
     <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg" width="220" height="342">
-    <h2>Titanic</h2>
+    <h2 class="title">Titanic</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Salz7uGp72c" data-toggle="modal" data-target="#trailer">
     <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_UX182_CR0,0,182,268_AL_.jpg" width="220" height="342">
-    <h2>The theory of everything</h2>
+    <h2 class="title">The theory of everything</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="aS_d0Ayjw4o" data-toggle="modal" data-target="#trailer">
+    <img src="https://images.gr-assets.com/books/1347807703l/13912.jpg" width="220" height="342">
+    <h2 class="title">Beautiful Mind</h2>
 </div>
 
     </div>

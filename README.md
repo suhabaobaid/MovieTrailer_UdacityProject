@@ -9,4 +9,5 @@ This is the first project in the FullStack Web developer Nanodegree in Udacity.
 2. Open the terminal/CommandLine (Mac/Windows)
 3. Navigate to the project's directoy
 4. Run the command ```python entertainment_center.py```
+5. This generates the file fresh_tomatoes.html and opens it automatically in the browser.
 

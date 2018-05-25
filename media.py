@@ -1,4 +1,4 @@
-class Movie:
+class Movie():
     ''' Class to hold the information of each movie
 
     Attributes:
